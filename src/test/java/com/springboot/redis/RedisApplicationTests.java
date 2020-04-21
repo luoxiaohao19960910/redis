@@ -28,7 +28,7 @@ public class RedisApplicationTests {
     @Test
     public void contextLoads() {
 
-        User user = new User(1L,"张三",18,new Date());
+        User user = new User(2L,"李四",18,new Date());
 //        redisTemplate.opsForValue().set("user",user);
 //        System.out.println(redisTemplate.opsForValue().get("user"));
 
